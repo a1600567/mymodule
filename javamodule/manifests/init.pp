@@ -28,7 +28,7 @@ class asennusmoduuli {
                 }
 
         exec { 'OpenEclipse':
-                command => '/usr/bin/eclipse',
+                command => '/usr/bin/eclipse &',
                 require => Package['eclipse'],
                 }
 }
