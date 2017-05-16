@@ -24,7 +24,7 @@ class asennusmoduuli {
                 }
 
         file {'/var/www/html/index.html':
-                content => "Working localhost to write HTML code besides java",
+                content => "Working localhost to write HTML code besides java. You can find the index.html from the path /var/www/html/index.html",
                 }
 
         exec { 'OpenEclipse':
